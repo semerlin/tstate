@@ -1,3 +1,5 @@
+find_package(LIBXML2)
+
 set(SRC_LIST
     )
 
