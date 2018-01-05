@@ -1,0 +1,9 @@
+libdir=@CMAKE_INSTALL_PREFIX@/lib
+includedir=@CMAKE_INSTALL_PREFIX@/include
+
+Name: tstate
+Description: tstate library
+Version: @VERSION_MAJOR@.@VERSION_MINOR@.@REVISION_NUMBER@.@BUILD_NUMBER@
+URL: https://github.com/semerlin/tstate
+Libs: -L${libdir} -ltstate @CMAKE_THREAD_LIBS_INIT@
+Cflags: -I${includedir}
